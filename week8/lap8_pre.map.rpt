@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lap8_pre
-Tue Dec 13 01:08:02 2016
+Tue Dec 13 07:55:12 2016
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -10,7 +10,12 @@ Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
   2. Analysis & Synthesis Summary
   3. Analysis & Synthesis Settings
   4. Parallel Compilation
-  5. Analysis & Synthesis Messages
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Inverted Register Statistics
+ 10. Analysis & Synthesis Messages
 
 
 
@@ -36,20 +41,20 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +------------------------------------+----------------------------------------------+
-; Analysis & Synthesis Status        ; Failed - Tue Dec 13 01:08:02 2016            ;
+; Analysis & Synthesis Status        ; Successful - Tue Dec 13 07:55:12 2016        ;
 ; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
 ; Revision Name                      ; lap8_pre                                     ;
 ; Top-level Entity Name              ; SinTableTC                                   ;
 ; Family                             ; Cyclone II                                   ;
-; Total logic elements               ; N/A until Partition Merge                    ;
-;     Total combinational functions  ; N/A until Partition Merge                    ;
-;     Dedicated logic registers      ; N/A until Partition Merge                    ;
-; Total registers                    ; N/A until Partition Merge                    ;
-; Total pins                         ; N/A until Partition Merge                    ;
-; Total virtual pins                 ; N/A until Partition Merge                    ;
-; Total memory bits                  ; N/A until Partition Merge                    ;
-; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                    ;
-; Total PLLs                         ; N/A until Partition Merge                    ;
+; Total logic elements               ; 105                                          ;
+;     Total combinational functions  ; 104                                          ;
+;     Dedicated logic registers      ; 8                                            ;
+; Total registers                    ; 8                                            ;
+; Total pins                         ; 19                                           ;
+; Total virtual pins                 ; 0                                            ;
+; Total memory bits                  ; 0                                            ;
+; Embedded Multiplier 9-bit elements ; 0                                            ;
+; Total PLLs                         ; 0                                            ;
 +------------------------------------+----------------------------------------------+
 
 
@@ -141,13 +146,86 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                       ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                          ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------+
+; SinTableTC.vhd                   ; yes             ; User VHDL File  ; C:/Users/Kareen/Desktop/HomeWork/lab1_electrical/LabElectrical16/week8/SinTableTC.vhd ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary           ;
++---------------------------------------------+---------+
+; Resource                                    ; Usage   ;
++---------------------------------------------+---------+
+; Estimated Total logic elements              ; 105     ;
+;                                             ;         ;
+; Total combinational functions               ; 104     ;
+; Logic element usage by number of LUT inputs ;         ;
+;     -- 4 input functions                    ; 96      ;
+;     -- 3 input functions                    ; 7       ;
+;     -- <=2 input functions                  ; 1       ;
+;                                             ;         ;
+; Logic elements by mode                      ;         ;
+;     -- normal mode                          ; 104     ;
+;     -- arithmetic mode                      ; 0       ;
+;                                             ;         ;
+; Total registers                             ; 8       ;
+;     -- Dedicated logic registers            ; 8       ;
+;     -- I/O registers                        ; 0       ;
+;                                             ;         ;
+; I/O pins                                    ; 19      ;
+; Maximum fan-out node                        ; ADDR[0] ;
+; Maximum fan-out                             ; 49      ;
+; Total fan-out                               ; 447     ;
+; Average fan-out                             ; 3.41    ;
++---------------------------------------------+---------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+; |SinTableTC                ; 104 (104)         ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 19   ; 0            ; |SinTableTC         ; work         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 8     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 8     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 8     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++--------------------------------------------------+
+; Inverted Register Statistics                     ;
++----------------------------------------+---------+
+; Inverted Register                      ; Fan out ;
++----------------------------------------+---------+
+; Q[7]~reg0                              ; 1       ;
+; Total number of inverted registers = 1 ;         ;
++----------------------------------------+---------+
+
+
 +-------------------------------+
 ; Analysis & Synthesis Messages ;
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Tue Dec 13 01:08:01 2016
+    Info: Processing started: Tue Dec 13 07:55:08 2016
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lap8_pre -c lap8_pre
 Info: Found 2 design units, including 1 entities, in source file double_conv.vhd
     Info: Found design unit 1: double_conv-double_conv
@@ -161,12 +239,17 @@ Info: Found 2 design units, including 1 entities, in source file half_full_wave_
 Info: Found 2 design units, including 1 entities, in source file sintabletc.vhd
     Info: Found design unit 1: SinTableTC-arch
     Info: Found entity 1: SinTableTC
-Error (10327): VHDL error at SinTableTC.vhd(295): can't determine definition of operator ""+"" -- found 0 possible definitions File: C:/Users/Kareen/Desktop/HomeWork/lab1_electrical/week8/SinTableTC.vhd Line: 295
-Error (10411): VHDL Type Conversion error at SinTableTC.vhd(295): can't determine type of object or expression near text or symbol "UNSIGNED" File: C:/Users/Kareen/Desktop/HomeWork/lab1_electrical/week8/SinTableTC.vhd Line: 295
-Error: Quartus II Analysis & Synthesis was unsuccessful. 2 errors, 0 warnings
-    Error: Peak virtual memory: 256 megabytes
-    Error: Processing ended: Tue Dec 13 01:08:02 2016
-    Error: Elapsed time: 00:00:01
-    Error: Total CPU time (on all processors): 00:00:03
+Info: Elaborating entity "SinTableTC" for the top level hierarchy
+Info: Registers with preset signals will power-up high
+Info: DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
+Info: Implemented 124 device resources after synthesis - the final resource count might be different
+    Info: Implemented 11 input pins
+    Info: Implemented 8 output pins
+    Info: Implemented 105 logic cells
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 264 megabytes
+    Info: Processing ended: Tue Dec 13 07:55:12 2016
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:04
 
 

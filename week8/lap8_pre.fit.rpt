@@ -1,5 +1,5 @@
 Fitter report for lap8_pre
-Tue Dec 13 00:49:04 2016
+Tue Dec 13 07:55:14 2016
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -61,15 +61,15 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                    ;
 +------------------------------------+----------------------------------------------+
-; Fitter Status                      ; Successful - Tue Dec 13 00:49:04 2016        ;
+; Fitter Status                      ; Successful - Tue Dec 13 07:55:14 2016        ;
 ; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
 ; Revision Name                      ; lap8_pre                                     ;
 ; Top-level Entity Name              ; SinTableTC                                   ;
 ; Family                             ; Cyclone II                                   ;
 ; Device                             ; EP2C5T144C6                                  ;
 ; Timing Models                      ; Final                                        ;
-; Total logic elements               ; 125 / 4,608 ( 3 % )                          ;
-;     Total combinational functions  ; 124 / 4,608 ( 3 % )                          ;
+; Total logic elements               ; 105 / 4,608 ( 2 % )                          ;
+;     Total combinational functions  ; 104 / 4,608 ( 2 % )                          ;
 ;     Dedicated logic registers      ; 8 / 4,608 ( < 1 % )                          ;
 ; Total registers                    ; 8                                            ;
 ; Total pins                         ; 19 / 89 ( 21 % )                             ;
@@ -148,8 +148,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Type                    ; Value              ;
 +-------------------------+--------------------+
 ; Placement               ;                    ;
-;     -- Requested        ; 0 / 157 ( 0.00 % ) ;
-;     -- Achieved         ; 0 / 157 ( 0.00 % ) ;
+;     -- Requested        ; 0 / 137 ( 0.00 % ) ;
+;     -- Achieved         ; 0 / 137 ( 0.00 % ) ;
 ;                         ;                    ;
 ; Routing (by Connection) ;                    ;
 ;     -- Requested        ; 0 / 0 ( 0.00 % )   ;
@@ -171,14 +171,14 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------+---------+-------------------+-------------------------+-------------------+
 ; Partition Name ; # Nodes ; # Preserved Nodes ; Preservation Level Used ; Netlist Type Used ;
 +----------------+---------+-------------------+-------------------------+-------------------+
-; Top            ; 157     ; 0                 ; N/A                     ; Source File       ;
+; Top            ; 137     ; 0                 ; N/A                     ; Source File       ;
 +----------------+---------+-------------------+-------------------------+-------------------+
 
 
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/Kareen/Desktop/HomeWork/lab1_electrical/week8/lap8_pre.pin.
+The pin-out file can be found in C:/Users/Kareen/Desktop/HomeWork/lab1_electrical/LabElectrical16/week8/lap8_pre.pin.
 
 
 +-------------------------------------------------------------------+
@@ -186,26 +186,26 @@ The pin-out file can be found in C:/Users/Kareen/Desktop/HomeWork/lab1_electrica
 +---------------------------------------------+---------------------+
 ; Resource                                    ; Usage               ;
 +---------------------------------------------+---------------------+
-; Total logic elements                        ; 125 / 4,608 ( 3 % ) ;
-;     -- Combinational with no register       ; 117                 ;
+; Total logic elements                        ; 105 / 4,608 ( 2 % ) ;
+;     -- Combinational with no register       ; 97                  ;
 ;     -- Register only                        ; 1                   ;
 ;     -- Combinational with a register        ; 7                   ;
 ;                                             ;                     ;
 ; Logic element usage by number of LUT inputs ;                     ;
-;     -- 4 input functions                    ; 112                 ;
-;     -- 3 input functions                    ; 9                   ;
-;     -- <=2 input functions                  ; 3                   ;
+;     -- 4 input functions                    ; 96                  ;
+;     -- 3 input functions                    ; 7                   ;
+;     -- <=2 input functions                  ; 1                   ;
 ;     -- Register only                        ; 1                   ;
 ;                                             ;                     ;
 ; Logic elements by mode                      ;                     ;
-;     -- normal mode                          ; 124                 ;
+;     -- normal mode                          ; 104                 ;
 ;     -- arithmetic mode                      ; 0                   ;
 ;                                             ;                     ;
 ; Total registers*                            ; 8 / 4,851 ( < 1 % ) ;
 ;     -- Dedicated logic registers            ; 8 / 4,608 ( < 1 % ) ;
 ;     -- I/O registers                        ; 0 / 243 ( 0 % )     ;
 ;                                             ;                     ;
-; Total LABs:  partially or completely used   ; 8 / 288 ( 3 % )     ;
+; Total LABs:  partially or completely used   ; 7 / 288 ( 2 % )     ;
 ; User inserted logic elements                ; 0                   ;
 ; Virtual pins                                ; 0                   ;
 ; I/O pins                                    ; 19 / 89 ( 21 % )    ;
@@ -220,14 +220,14 @@ The pin-out file can be found in C:/Users/Kareen/Desktop/HomeWork/lab1_electrica
 ; JTAGs                                       ; 0 / 1 ( 0 % )       ;
 ; ASMI blocks                                 ; 0 / 1 ( 0 % )       ;
 ; CRC blocks                                  ; 0 / 1 ( 0 % )       ;
-; Average interconnect usage (total/H/V)      ; 0% / 1% / 0%        ;
+; Average interconnect usage (total/H/V)      ; 0% / 0% / 0%        ;
 ; Peak interconnect usage (total/H/V)         ; 1% / 1% / 1%        ;
-; Maximum fan-out node                        ; ADDR[7]             ;
-; Maximum fan-out                             ; 61                  ;
-; Highest non-global fan-out signal           ; ADDR[7]             ;
-; Highest non-global fan-out                  ; 61                  ;
-; Total fan-out                               ; 523                 ;
-; Average fan-out                             ; 3.35                ;
+; Maximum fan-out node                        ; ADDR[0]             ;
+; Maximum fan-out                             ; 49                  ;
+; Highest non-global fan-out signal           ; ADDR[0]             ;
+; Highest non-global fan-out                  ; 49                  ;
+; Total fan-out                               ; 450                 ;
+; Average fan-out                             ; 3.28                ;
 +---------------------------------------------+---------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
 
@@ -238,14 +238,14 @@ The pin-out file can be found in C:/Users/Kareen/Desktop/HomeWork/lab1_electrica
 +---------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
 ; Name    ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination ; Location assigned by ;
 +---------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
-; ADDR[0] ; 40    ; 4        ; 1            ; 0            ; 2           ; 52                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; ADDR[1] ; 88    ; 3        ; 28           ; 7            ; 3           ; 37                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; ADDR[2] ; 74    ; 3        ; 28           ; 1            ; 0           ; 30                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; ADDR[3] ; 79    ; 3        ; 28           ; 5            ; 4           ; 48                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; ADDR[4] ; 96    ; 3        ; 28           ; 9            ; 1           ; 22                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; ADDR[5] ; 81    ; 3        ; 28           ; 5            ; 1           ; 46                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; ADDR[6] ; 59    ; 4        ; 14           ; 0            ; 1           ; 58                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; ADDR[7] ; 92    ; 3        ; 28           ; 8            ; 1           ; 61                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; ADDR[0] ; 79    ; 3        ; 28           ; 5            ; 4           ; 49                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; ADDR[1] ; 81    ; 3        ; 28           ; 5            ; 1           ; 41                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; ADDR[2] ; 64    ; 4        ; 21           ; 0            ; 1           ; 28                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; ADDR[3] ; 96    ; 3        ; 28           ; 9            ; 1           ; 35                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; ADDR[4] ; 103   ; 3        ; 28           ; 12           ; 1           ; 39                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; ADDR[5] ; 88    ; 3        ; 28           ; 7            ; 3           ; 39                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; ADDR[6] ; 93    ; 3        ; 28           ; 8            ; 0           ; 46                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; ADDR[7] ; 97    ; 3        ; 28           ; 9            ; 0           ; 31                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
 ; CLK     ; 17    ; 1        ; 0            ; 6            ; 0           ; 1                     ; 0                  ; yes    ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
 ; ENA     ; 89    ; 3        ; 28           ; 7            ; 2           ; 8                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
 ; RESET_N ; 18    ; 1        ; 0            ; 6            ; 1           ; 1                     ; 0                  ; yes    ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
@@ -257,27 +257,27 @@ The pin-out file can be found in C:/Users/Kareen/Desktop/HomeWork/lab1_electrica
 +------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
 ; Name ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Output Register ; Output Enable Register ; Power Up High ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination ; Location assigned by ; Load ; Output Enable Source ; Output Enable Group ;
 +------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
-; Q[0] ; 51    ; 4        ; 7            ; 0            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; Q[0] ; 60    ; 4        ; 14           ; 0            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
 ; Q[1] ; 26    ; 1        ; 0            ; 5            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; Q[2] ; 72    ; 4        ; 26           ; 0            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; Q[3] ; 28    ; 1        ; 0            ; 4            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; Q[4] ; 9     ; 1        ; 0            ; 11           ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; Q[2] ; 63    ; 4        ; 19           ; 0            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; Q[3] ; 87    ; 3        ; 28           ; 6            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; Q[4] ; 31    ; 1        ; 0            ; 2            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
 ; Q[5] ; 134   ; 2        ; 7            ; 14           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; Q[6] ; 8     ; 1        ; 0            ; 11           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; Q[7] ; 27    ; 1        ; 0            ; 5            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; Q[6] ; 30    ; 1        ; 0            ; 2            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; Q[7] ; 28    ; 1        ; 0            ; 4            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
 +------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
 
 
-+-----------------------------------------------------------+
-; I/O Bank Usage                                            ;
-+----------+-----------------+---------------+--------------+
-; I/O Bank ; Usage           ; VCCIO Voltage ; VREF Voltage ;
-+----------+-----------------+---------------+--------------+
-; 1        ; 9 / 19 ( 47 % ) ; 3.3V          ; --           ;
-; 2        ; 1 / 23 ( 4 % )  ; 3.3V          ; --           ;
-; 3        ; 8 / 23 ( 35 % ) ; 3.3V          ; --           ;
-; 4        ; 4 / 24 ( 17 % ) ; 3.3V          ; --           ;
-+----------+-----------------+---------------+--------------+
++------------------------------------------------------------+
+; I/O Bank Usage                                             ;
++----------+------------------+---------------+--------------+
+; I/O Bank ; Usage            ; VCCIO Voltage ; VREF Voltage ;
++----------+------------------+---------------+--------------+
+; 1        ; 8 / 19 ( 42 % )  ; 3.3V          ; --           ;
+; 2        ; 1 / 23 ( 4 % )   ; 3.3V          ; --           ;
+; 3        ; 10 / 23 ( 43 % ) ; 3.3V          ; --           ;
+; 4        ; 3 / 24 ( 13 % )  ; 3.3V          ; --           ;
++----------+------------------+---------------+--------------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -292,8 +292,8 @@ The pin-out file can be found in C:/Users/Kareen/Desktop/HomeWork/lab1_electrica
 ; 5        ;            ; 1        ; VCCIO1                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; 6        ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; 7        ; 10         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; 8        ; 11         ; 1        ; Q[6]                                     ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; 9        ; 12         ; 1        ; Q[4]                                     ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 8        ; 11         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; 9        ; 12         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; 10       ; 13         ; 1        ; #TDO                                     ; output ;              ;         ; --         ;                 ; --       ; --           ;
 ; 11       ; 14         ; 1        ; #TMS                                     ; input  ;              ;         ; --         ;                 ; --       ; --           ;
 ; 12       ; 15         ; 1        ; #TCK                                     ; input  ;              ;         ; --         ;                 ; --       ; --           ;
@@ -311,11 +311,11 @@ The pin-out file can be found in C:/Users/Kareen/Desktop/HomeWork/lab1_electrica
 ; 24       ; 25         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; 25       ; 26         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; 26       ; 27         ; 1        ; Q[1]                                     ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; 27       ; 28         ; 1        ; Q[7]                                     ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; 28       ; 32         ; 1        ; Q[3]                                     ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 27       ; 28         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; 28       ; 32         ; 1        ; Q[7]                                     ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; 29       ;            ; 1        ; VCCIO1                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-; 30       ; 40         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; 31       ; 41         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; 30       ; 40         ; 1        ; Q[6]                                     ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 31       ; 41         ; 1        ; Q[4]                                     ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; 32       ; 42         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; 33       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; 34       ;            ;          ; GND_PLL1                                 ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -324,7 +324,7 @@ The pin-out file can be found in C:/Users/Kareen/Desktop/HomeWork/lab1_electrica
 ; 37       ;            ;          ; VCCA_PLL1                                ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; 38       ;            ;          ; GNDA_PLL1                                ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; 39       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; 40       ; 43         ; 4        ; ADDR[0]                                  ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; 40       ; 43         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 41       ; 44         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 42       ; 45         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 43       ; 46         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -335,7 +335,7 @@ The pin-out file can be found in C:/Users/Kareen/Desktop/HomeWork/lab1_electrica
 ; 48       ; 50         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 49       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; 50       ;            ;          ; VCCINT                                   ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
-; 51       ; 52         ; 4        ; Q[0]                                     ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; 51       ; 52         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 52       ; 53         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 53       ; 57         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 54       ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
@@ -343,12 +343,12 @@ The pin-out file can be found in C:/Users/Kareen/Desktop/HomeWork/lab1_electrica
 ; 56       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; 57       ; 59         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 58       ; 60         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; 59       ; 63         ; 4        ; ADDR[6]                                  ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; 60       ; 64         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; 59       ; 63         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; 60       ; 64         ; 4        ; Q[0]                                     ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; 61       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; 62       ;            ;          ; VCCINT                                   ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
-; 63       ; 72         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; 64       ; 75         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; 63       ; 72         ; 4        ; Q[2]                                     ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; 64       ; 75         ; 4        ; ADDR[2]                                  ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; 65       ; 76         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 66       ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; 67       ; 79         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -356,38 +356,38 @@ The pin-out file can be found in C:/Users/Kareen/Desktop/HomeWork/lab1_electrica
 ; 69       ; 80         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 70       ; 81         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 71       ; 82         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; 72       ; 83         ; 4        ; Q[2]                                     ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; 72       ; 83         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 73       ; 84         ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; 74       ; 85         ; 3        ; ADDR[2]                                  ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 74       ; 85         ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; 75       ; 86         ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; 76       ; 87         ; 3        ; ~LVDS41p/nCEO~                           ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; 77       ;            ; 3        ; VCCIO3                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; 78       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; 79       ; 95         ; 3        ; ADDR[3]                                  ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 79       ; 95         ; 3        ; ADDR[0]                                  ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; 80       ; 97         ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; 81       ; 98         ; 3        ; ADDR[5]                                  ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 81       ; 98         ; 3        ; ADDR[1]                                  ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; 82       ; 99         ; 3        ; ^nSTATUS                                 ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; 83       ; 100        ; 3        ; ^CONF_DONE                               ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; 84       ; 101        ; 3        ; ^MSEL1                                   ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; 85       ; 102        ; 3        ; ^MSEL0                                   ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; 86       ; 103        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; 87       ; 104        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; 88       ; 105        ; 3        ; ADDR[1]                                  ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 87       ; 104        ; 3        ; Q[3]                                     ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 88       ; 105        ; 3        ; ADDR[5]                                  ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; 89       ; 106        ; 3        ; ENA                                      ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; 90       ; 107        ; 3        ; GND+                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; 91       ; 108        ; 3        ; GND+                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
-; 92       ; 109        ; 3        ; ADDR[7]                                  ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; 93       ; 110        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; 92       ; 109        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; 93       ; 110        ; 3        ; ADDR[6]                                  ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; 94       ; 111        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; 95       ;            ; 3        ; VCCIO3                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-; 96       ; 112        ; 3        ; ADDR[4]                                  ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; 97       ; 113        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; 96       ; 112        ; 3        ; ADDR[3]                                  ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 97       ; 113        ; 3        ; ADDR[7]                                  ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; 98       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; 99       ; 119        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; 100      ; 120        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; 101      ; 121        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; 102      ;            ; 3        ; VCCIO3                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-; 103      ; 125        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; 103      ; 125        ; 3        ; ADDR[4]                                  ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; 104      ; 126        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; 105      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; 106      ;            ;          ; GND_PLL2                                 ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -475,7 +475,7 @@ Note: User assignments will override these defaults. The user specified values a
 +----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M4Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------+--------------+
-; |SinTableTC                ; 125 (125)   ; 8 (8)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 19   ; 0            ; 117 (117)    ; 1 (1)             ; 7 (7)            ; |SinTableTC         ; work         ;
+; |SinTableTC                ; 105 (105)   ; 8 (8)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 19   ; 0            ; 97 (97)      ; 1 (1)             ; 7 (7)            ; |SinTableTC         ; work         ;
 +----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -493,354 +493,306 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Q[5]    ; Output   ; --            ; --            ; --                    ; --  ;
 ; Q[6]    ; Output   ; --            ; --            ; --                    ; --  ;
 ; Q[7]    ; Output   ; --            ; --            ; --                    ; --  ;
-; ADDR[5] ; Input    ; (6) 4075 ps   ; (6) 4075 ps   ; --                    ; --  ;
-; ADDR[7] ; Input    ; (6) 4075 ps   ; (6) 4075 ps   ; --                    ; --  ;
-; ADDR[6] ; Input    ; (6) 4114 ps   ; (6) 4114 ps   ; --                    ; --  ;
+; ADDR[0] ; Input    ; (6) 4075 ps   ; (6) 4075 ps   ; --                    ; --  ;
+; ADDR[6] ; Input    ; (6) 4075 ps   ; (6) 4075 ps   ; --                    ; --  ;
+; ADDR[2] ; Input    ; (6) 4114 ps   ; (6) 4114 ps   ; --                    ; --  ;
 ; ADDR[3] ; Input    ; (6) 4075 ps   ; (6) 4075 ps   ; --                    ; --  ;
 ; ADDR[4] ; Input    ; (6) 4075 ps   ; (6) 4075 ps   ; --                    ; --  ;
-; ADDR[0] ; Input    ; (6) 4114 ps   ; (6) 4114 ps   ; --                    ; --  ;
-; ADDR[2] ; Input    ; (6) 4075 ps   ; (6) 4075 ps   ; --                    ; --  ;
-; ADDR[1] ; Input    ; (0) 299 ps    ; (0) 299 ps    ; --                    ; --  ;
+; ADDR[1] ; Input    ; (6) 4075 ps   ; (6) 4075 ps   ; --                    ; --  ;
+; ADDR[7] ; Input    ; (6) 4075 ps   ; (6) 4075 ps   ; --                    ; --  ;
+; ADDR[5] ; Input    ; (0) 299 ps    ; (0) 299 ps    ; --                    ; --  ;
 ; CLK     ; Input    ; (0) 299 ps    ; (0) 299 ps    ; --                    ; --  ;
 ; RESET_N ; Input    ; (0) 299 ps    ; (0) 299 ps    ; --                    ; --  ;
 ; ENA     ; Input    ; (0) 299 ps    ; (0) 299 ps    ; --                    ; --  ;
 +---------+----------+---------------+---------------+-----------------------+-----+
 
 
-+---------------------------------------------------+
-; Pad To Core Delay Chain Fanout                    ;
-+---------------------+-------------------+---------+
-; Source Pin / Fanout ; Pad To Core Index ; Setting ;
-+---------------------+-------------------+---------+
-; ADDR[5]             ;                   ;         ;
-;      - Mux6~0       ; 1                 ; 6       ;
-;      - Mux6~1       ; 1                 ; 6       ;
-;      - Mux6~2       ; 1                 ; 6       ;
-;      - Mux6~4       ; 1                 ; 6       ;
-;      - Mux6~9       ; 1                 ; 6       ;
-;      - Mux6~11      ; 1                 ; 6       ;
-;      - Mux6~12      ; 1                 ; 6       ;
-;      - Mux6~13      ; 1                 ; 6       ;
-;      - Mux6~14      ; 1                 ; 6       ;
-;      - Mux6~16      ; 1                 ; 6       ;
-;      - Mux6~19      ; 1                 ; 6       ;
-;      - Mux6~20      ; 1                 ; 6       ;
-;      - Mux6~21      ; 1                 ; 6       ;
-;      - Mux6~23      ; 1                 ; 6       ;
-;      - Mux5~0       ; 1                 ; 6       ;
-;      - Mux5~1       ; 1                 ; 6       ;
-;      - Mux5~2       ; 1                 ; 6       ;
-;      - Mux5~4       ; 1                 ; 6       ;
-;      - Mux5~6       ; 1                 ; 6       ;
-;      - Mux5~7       ; 1                 ; 6       ;
-;      - Mux5~8       ; 1                 ; 6       ;
-;      - Mux5~10      ; 1                 ; 6       ;
-;      - Mux5~15      ; 1                 ; 6       ;
-;      - Mux5~17      ; 1                 ; 6       ;
-;      - Mux5~19      ; 1                 ; 6       ;
-;      - Mux5~20      ; 1                 ; 6       ;
-;      - Mux5~21      ; 1                 ; 6       ;
-;      - Mux5~23      ; 1                 ; 6       ;
-;      - Mux4~0       ; 1                 ; 6       ;
-;      - Mux4~1       ; 1                 ; 6       ;
-;      - Mux4~3       ; 1                 ; 6       ;
-;      - Mux4~4       ; 1                 ; 6       ;
-;      - Mux4~5       ; 1                 ; 6       ;
-;      - Mux4~7       ; 1                 ; 6       ;
-;      - Mux4~12      ; 1                 ; 6       ;
-;      - Mux4~19      ; 1                 ; 6       ;
-;      - Mux3~14      ; 1                 ; 6       ;
-;      - Mux2~11      ; 1                 ; 6       ;
-;      - Mux1~3       ; 1                 ; 6       ;
-;      - Mux1~4       ; 1                 ; 6       ;
-;      - Mux1~5       ; 1                 ; 6       ;
-;      - Mux1~6       ; 1                 ; 6       ;
-;      - Mux0~0       ; 1                 ; 6       ;
-;      - Mux0~3       ; 1                 ; 6       ;
-;      - Mux1~7       ; 1                 ; 6       ;
-;      - Mux4~23      ; 1                 ; 6       ;
-; ADDR[7]             ;                   ;         ;
-;      - Q[7]~reg0    ; 1                 ; 6       ;
-;      - Mux6~0       ; 1                 ; 6       ;
-;      - Mux6~1       ; 1                 ; 6       ;
-;      - Mux6~2       ; 1                 ; 6       ;
-;      - Mux6~4       ; 1                 ; 6       ;
-;      - Mux6~6       ; 1                 ; 6       ;
-;      - Mux6~7       ; 1                 ; 6       ;
-;      - Mux6~8       ; 1                 ; 6       ;
-;      - Mux6~10      ; 1                 ; 6       ;
-;      - Mux6~12      ; 1                 ; 6       ;
-;      - Mux6~13      ; 1                 ; 6       ;
-;      - Mux6~14      ; 1                 ; 6       ;
-;      - Mux6~16      ; 1                 ; 6       ;
-;      - Mux6~22      ; 1                 ; 6       ;
-;      - Mux5~0       ; 1                 ; 6       ;
-;      - Mux5~1       ; 1                 ; 6       ;
-;      - Mux5~2       ; 1                 ; 6       ;
-;      - Mux5~4       ; 1                 ; 6       ;
-;      - Mux5~6       ; 1                 ; 6       ;
-;      - Mux5~7       ; 1                 ; 6       ;
-;      - Mux5~8       ; 1                 ; 6       ;
-;      - Mux5~10      ; 1                 ; 6       ;
-;      - Mux5~12      ; 1                 ; 6       ;
-;      - Mux5~13      ; 1                 ; 6       ;
-;      - Mux5~14      ; 1                 ; 6       ;
-;      - Mux5~16      ; 1                 ; 6       ;
-;      - Mux5~19      ; 1                 ; 6       ;
-;      - Mux5~20      ; 1                 ; 6       ;
-;      - Mux5~21      ; 1                 ; 6       ;
-;      - Mux5~23      ; 1                 ; 6       ;
-;      - Mux4~0       ; 1                 ; 6       ;
-;      - Mux4~1       ; 1                 ; 6       ;
-;      - Mux4~6       ; 1                 ; 6       ;
-;      - Mux4~9       ; 1                 ; 6       ;
-;      - Mux4~10      ; 1                 ; 6       ;
-;      - Mux4~11      ; 1                 ; 6       ;
-;      - Mux4~13      ; 1                 ; 6       ;
-;      - Mux4~16      ; 1                 ; 6       ;
-;      - Mux4~17      ; 1                 ; 6       ;
-;      - Mux4~18      ; 1                 ; 6       ;
-;      - Mux4~20      ; 1                 ; 6       ;
-;      - Mux3~0       ; 1                 ; 6       ;
-;      - Mux3~2       ; 1                 ; 6       ;
-;      - Mux3~4       ; 1                 ; 6       ;
-;      - Mux3~6       ; 1                 ; 6       ;
-;      - Mux3~7       ; 1                 ; 6       ;
-;      - Mux3~11      ; 1                 ; 6       ;
-;      - Mux3~16      ; 1                 ; 6       ;
-;      - Mux3~17      ; 1                 ; 6       ;
-;      - Mux2~5       ; 1                 ; 6       ;
-;      - Mux2~7       ; 1                 ; 6       ;
-;      - Mux2~9       ; 1                 ; 6       ;
-;      - Mux2~10      ; 1                 ; 6       ;
-;      - Mux2~12      ; 1                 ; 6       ;
-;      - Mux2~14      ; 1                 ; 6       ;
-;      - Mux1~5       ; 1                 ; 6       ;
-;      - Mux1~6       ; 1                 ; 6       ;
-;      - Mux0~3       ; 1                 ; 6       ;
-;      - Mux2~16      ; 1                 ; 6       ;
-;      - Mux1~7       ; 1                 ; 6       ;
-;      - Mux4~23      ; 1                 ; 6       ;
-; ADDR[6]             ;                   ;         ;
-;      - Mux6~0       ; 1                 ; 6       ;
-;      - Mux6~1       ; 1                 ; 6       ;
-;      - Mux6~2       ; 1                 ; 6       ;
-;      - Mux6~4       ; 1                 ; 6       ;
-;      - Mux6~6       ; 1                 ; 6       ;
-;      - Mux6~7       ; 1                 ; 6       ;
-;      - Mux6~8       ; 1                 ; 6       ;
-;      - Mux6~10      ; 1                 ; 6       ;
-;      - Mux6~15      ; 1                 ; 6       ;
-;      - Mux6~19      ; 1                 ; 6       ;
-;      - Mux6~20      ; 1                 ; 6       ;
-;      - Mux6~21      ; 1                 ; 6       ;
-;      - Mux6~23      ; 1                 ; 6       ;
-;      - Mux5~3       ; 1                 ; 6       ;
-;      - Mux5~6       ; 1                 ; 6       ;
-;      - Mux5~7       ; 1                 ; 6       ;
-;      - Mux5~8       ; 1                 ; 6       ;
-;      - Mux5~10      ; 1                 ; 6       ;
-;      - Mux5~12      ; 1                 ; 6       ;
-;      - Mux5~13      ; 1                 ; 6       ;
-;      - Mux5~14      ; 1                 ; 6       ;
-;      - Mux5~16      ; 1                 ; 6       ;
-;      - Mux5~22      ; 1                 ; 6       ;
-;      - Mux4~0       ; 1                 ; 6       ;
-;      - Mux4~1       ; 1                 ; 6       ;
-;      - Mux4~3       ; 1                 ; 6       ;
-;      - Mux4~4       ; 1                 ; 6       ;
-;      - Mux4~5       ; 1                 ; 6       ;
-;      - Mux4~7       ; 1                 ; 6       ;
-;      - Mux4~9       ; 1                 ; 6       ;
-;      - Mux4~10      ; 1                 ; 6       ;
-;      - Mux4~11      ; 1                 ; 6       ;
-;      - Mux4~13      ; 1                 ; 6       ;
-;      - Mux4~16      ; 1                 ; 6       ;
-;      - Mux4~17      ; 1                 ; 6       ;
-;      - Mux4~18      ; 1                 ; 6       ;
-;      - Mux4~20      ; 1                 ; 6       ;
-;      - Mux3~3       ; 1                 ; 6       ;
-;      - Mux3~6       ; 1                 ; 6       ;
-;      - Mux3~7       ; 1                 ; 6       ;
-;      - Mux3~11      ; 1                 ; 6       ;
-;      - Mux3~13      ; 1                 ; 6       ;
-;      - Mux3~16      ; 1                 ; 6       ;
-;      - Mux3~17      ; 1                 ; 6       ;
-;      - Mux2~4       ; 1                 ; 6       ;
-;      - Mux2~7       ; 1                 ; 6       ;
-;      - Mux2~9       ; 1                 ; 6       ;
-;      - Mux2~10      ; 1                 ; 6       ;
-;      - Mux2~12      ; 1                 ; 6       ;
-;      - Mux2~13      ; 1                 ; 6       ;
-;      - Mux0~1       ; 1                 ; 6       ;
-;      - Mux0~2       ; 1                 ; 6       ;
-;      - Mux0~3       ; 1                 ; 6       ;
-;      - Mux2~16      ; 1                 ; 6       ;
-;      - Mux1~8       ; 1                 ; 6       ;
-;      - Mux1~9       ; 1                 ; 6       ;
-;      - Mux3~21      ; 1                 ; 6       ;
-;      - Mux4~23      ; 1                 ; 6       ;
-; ADDR[3]             ;                   ;         ;
-;      - Mux6~0       ; 1                 ; 6       ;
-;      - Mux6~1       ; 1                 ; 6       ;
-;      - Mux6~2       ; 1                 ; 6       ;
-;      - Mux6~4       ; 1                 ; 6       ;
-;      - Mux6~6       ; 1                 ; 6       ;
-;      - Mux6~7       ; 1                 ; 6       ;
-;      - Mux6~8       ; 1                 ; 6       ;
-;      - Mux6~10      ; 1                 ; 6       ;
-;      - Mux6~12      ; 1                 ; 6       ;
-;      - Mux6~13      ; 1                 ; 6       ;
-;      - Mux6~14      ; 1                 ; 6       ;
-;      - Mux6~16      ; 1                 ; 6       ;
-;      - Mux6~19      ; 1                 ; 6       ;
-;      - Mux6~20      ; 1                 ; 6       ;
-;      - Mux6~21      ; 1                 ; 6       ;
-;      - Mux6~23      ; 1                 ; 6       ;
-;      - Mux5~3       ; 1                 ; 6       ;
-;      - Mux5~5       ; 1                 ; 6       ;
-;      - Mux5~9       ; 1                 ; 6       ;
-;      - Mux5~11      ; 1                 ; 6       ;
-;      - Mux5~12      ; 1                 ; 6       ;
-;      - Mux5~13      ; 1                 ; 6       ;
-;      - Mux5~14      ; 1                 ; 6       ;
-;      - Mux5~16      ; 1                 ; 6       ;
-;      - Mux5~19      ; 1                 ; 6       ;
-;      - Mux5~20      ; 1                 ; 6       ;
-;      - Mux5~21      ; 1                 ; 6       ;
-;      - Mux5~23      ; 1                 ; 6       ;
-;      - Mux4~15      ; 1                 ; 6       ;
-;      - Mux3~3       ; 1                 ; 6       ;
-;      - Mux3~5       ; 1                 ; 6       ;
-;      - Mux3~6       ; 1                 ; 6       ;
-;      - Mux3~7       ; 1                 ; 6       ;
-;      - Mux3~8       ; 1                 ; 6       ;
-;      - Mux3~9       ; 1                 ; 6       ;
-;      - Mux3~10      ; 1                 ; 6       ;
-;      - Mux3~12      ; 1                 ; 6       ;
-;      - Mux3~16      ; 1                 ; 6       ;
-;      - Mux3~17      ; 1                 ; 6       ;
-;      - Mux2~5       ; 1                 ; 6       ;
-;      - Mux2~8       ; 1                 ; 6       ;
-;      - Mux2~12      ; 1                 ; 6       ;
-;      - Mux2~14      ; 1                 ; 6       ;
-;      - Mux1~3       ; 1                 ; 6       ;
-;      - Mux1~4       ; 1                 ; 6       ;
-;      - Mux0~1       ; 1                 ; 6       ;
-;      - Mux2~16      ; 1                 ; 6       ;
-;      - Mux1~7       ; 1                 ; 6       ;
-; ADDR[4]             ;                   ;         ;
-;      - Mux6~3       ; 1                 ; 6       ;
-;      - Mux6~5       ; 1                 ; 6       ;
-;      - Mux6~6       ; 1                 ; 6       ;
-;      - Mux6~7       ; 1                 ; 6       ;
-;      - Mux6~8       ; 1                 ; 6       ;
-;      - Mux6~10      ; 1                 ; 6       ;
-;      - Mux6~15      ; 1                 ; 6       ;
-;      - Mux6~17      ; 1                 ; 6       ;
-;      - Mux6~22      ; 1                 ; 6       ;
-;      - Mux6~24      ; 1                 ; 6       ;
-;      - Mux5~18      ; 1                 ; 6       ;
-;      - Mux5~25      ; 1                 ; 6       ;
-;      - Mux4~15      ; 1                 ; 6       ;
-;      - Mux4~22      ; 1                 ; 6       ;
-;      - Mux3~14      ; 1                 ; 6       ;
-;      - Mux3~19      ; 1                 ; 6       ;
-;      - Mux2~11      ; 1                 ; 6       ;
-;      - Mux2~15      ; 1                 ; 6       ;
-;      - Mux1~2       ; 1                 ; 6       ;
-;      - Mux1~3       ; 1                 ; 6       ;
-;      - Mux1~4       ; 1                 ; 6       ;
-;      - Mux0~0       ; 1                 ; 6       ;
-; ADDR[0]             ;                   ;         ;
-;      - Mux6~3       ; 0                 ; 6       ;
-;      - Mux6~9       ; 0                 ; 6       ;
-;      - Mux6~12      ; 0                 ; 6       ;
-;      - Mux6~13      ; 0                 ; 6       ;
-;      - Mux6~14      ; 0                 ; 6       ;
-;      - Mux6~16      ; 0                 ; 6       ;
-;      - Mux6~19      ; 0                 ; 6       ;
-;      - Mux6~20      ; 0                 ; 6       ;
-;      - Mux6~21      ; 0                 ; 6       ;
-;      - Mux6~23      ; 0                 ; 6       ;
-;      - Mux5~0       ; 0                 ; 6       ;
-;      - Mux5~1       ; 0                 ; 6       ;
-;      - Mux5~2       ; 0                 ; 6       ;
-;      - Mux5~4       ; 0                 ; 6       ;
-;      - Mux5~6       ; 0                 ; 6       ;
-;      - Mux5~7       ; 0                 ; 6       ;
-;      - Mux5~8       ; 0                 ; 6       ;
-;      - Mux5~10      ; 0                 ; 6       ;
-;      - Mux5~12      ; 0                 ; 6       ;
-;      - Mux5~13      ; 0                 ; 6       ;
-;      - Mux5~14      ; 0                 ; 6       ;
-;      - Mux5~16      ; 0                 ; 6       ;
-;      - Mux5~19      ; 0                 ; 6       ;
-;      - Mux5~20      ; 0                 ; 6       ;
-;      - Mux5~21      ; 0                 ; 6       ;
-;      - Mux5~23      ; 0                 ; 6       ;
-;      - Mux4~0       ; 0                 ; 6       ;
-;      - Mux4~1       ; 0                 ; 6       ;
-;      - Mux4~3       ; 0                 ; 6       ;
-;      - Mux4~4       ; 0                 ; 6       ;
-;      - Mux4~5       ; 0                 ; 6       ;
-;      - Mux4~7       ; 0                 ; 6       ;
-;      - Mux4~9       ; 0                 ; 6       ;
-;      - Mux4~10      ; 0                 ; 6       ;
-;      - Mux4~11      ; 0                 ; 6       ;
-;      - Mux4~13      ; 0                 ; 6       ;
-;      - Mux4~16      ; 0                 ; 6       ;
-;      - Mux4~17      ; 0                 ; 6       ;
-;      - Mux4~18      ; 0                 ; 6       ;
-;      - Mux4~20      ; 0                 ; 6       ;
-;      - Mux3~0       ; 0                 ; 6       ;
-;      - Mux3~2       ; 0                 ; 6       ;
-;      - Mux3~4       ; 0                 ; 6       ;
-;      - Mux3~6       ; 0                 ; 6       ;
-;      - Mux3~9       ; 0                 ; 6       ;
-;      - Mux3~15      ; 0                 ; 6       ;
-;      - Mux2~4       ; 0                 ; 6       ;
-;      - Mux2~6       ; 0                 ; 6       ;
-;      - Mux2~8       ; 0                 ; 6       ;
-;      - Mux2~13      ; 0                 ; 6       ;
-;      - Mux0~0       ; 0                 ; 6       ;
-;      - Mux1~7       ; 0                 ; 6       ;
-; ADDR[2]             ;                   ;         ;
-;      - Mux6~18      ; 0                 ; 6       ;
-;      - Mux6~25      ; 0                 ; 6       ;
-;      - Mux5~18      ; 0                 ; 6       ;
-;      - Mux4~2       ; 0                 ; 6       ;
-;      - Mux4~6       ; 0                 ; 6       ;
-;      - Mux4~8       ; 0                 ; 6       ;
-;      - Mux4~12      ; 0                 ; 6       ;
-;      - Mux4~14      ; 0                 ; 6       ;
-;      - Mux4~19      ; 0                 ; 6       ;
-;      - Mux4~21      ; 0                 ; 6       ;
-;      - Mux3~0       ; 0                 ; 6       ;
-;      - Mux3~1       ; 0                 ; 6       ;
-;      - Mux3~2       ; 0                 ; 6       ;
-;      - Mux3~4       ; 0                 ; 6       ;
-;      - Mux3~8       ; 0                 ; 6       ;
-;      - Mux3~9       ; 0                 ; 6       ;
-;      - Mux3~10      ; 0                 ; 6       ;
-;      - Mux3~12      ; 0                 ; 6       ;
-;      - Mux3~15      ; 0                 ; 6       ;
-;      - Mux3~16      ; 0                 ; 6       ;
-;      - Mux3~17      ; 0                 ; 6       ;
-;      - Mux2~4       ; 0                 ; 6       ;
-;      - Mux2~5       ; 0                 ; 6       ;
-;      - Mux2~8       ; 0                 ; 6       ;
-;      - Mux2~13      ; 0                 ; 6       ;
-;      - Mux1~2       ; 0                 ; 6       ;
-;      - Mux0~1       ; 0                 ; 6       ;
-;      - Mux3~20      ; 0                 ; 6       ;
-;      - Mux3~21      ; 0                 ; 6       ;
-;      - Mux4~24      ; 0                 ; 6       ;
-; ADDR[1]             ;                   ;         ;
-; CLK                 ;                   ;         ;
-; RESET_N             ;                   ;         ;
-; ENA                 ;                   ;         ;
-+---------------------+-------------------+---------+
++------------------------------------------------------+
+; Pad To Core Delay Chain Fanout                       ;
++------------------------+-------------------+---------+
+; Source Pin / Fanout    ; Pad To Core Index ; Setting ;
++------------------------+-------------------+---------+
+; ADDR[0]                ;                   ;         ;
+;      - Mux6~0          ; 1                 ; 6       ;
+;      - Mux6~1          ; 1                 ; 6       ;
+;      - Mux6~2          ; 1                 ; 6       ;
+;      - Mux6~4          ; 1                 ; 6       ;
+;      - Mux6~6          ; 1                 ; 6       ;
+;      - Mux6~7          ; 1                 ; 6       ;
+;      - Mux6~8          ; 1                 ; 6       ;
+;      - Mux6~10         ; 1                 ; 6       ;
+;      - Mux6~14         ; 1                 ; 6       ;
+;      - Mux6~18         ; 1                 ; 6       ;
+;      - Mux6~19         ; 1                 ; 6       ;
+;      - Mux6~20         ; 1                 ; 6       ;
+;      - Mux6~22         ; 1                 ; 6       ;
+;      - Mux5~0          ; 1                 ; 6       ;
+;      - Mux5~1          ; 1                 ; 6       ;
+;      - Mux5~2          ; 1                 ; 6       ;
+;      - Mux5~4          ; 1                 ; 6       ;
+;      - Mux5~6          ; 1                 ; 6       ;
+;      - Mux5~7          ; 1                 ; 6       ;
+;      - Mux5~8          ; 1                 ; 6       ;
+;      - Mux5~10         ; 1                 ; 6       ;
+;      - Mux5~12         ; 1                 ; 6       ;
+;      - Mux5~13         ; 1                 ; 6       ;
+;      - Mux5~14         ; 1                 ; 6       ;
+;      - Mux5~16         ; 1                 ; 6       ;
+;      - Mux5~19         ; 1                 ; 6       ;
+;      - Mux5~20         ; 1                 ; 6       ;
+;      - Mux5~21         ; 1                 ; 6       ;
+;      - Mux5~23         ; 1                 ; 6       ;
+;      - Mux4~0          ; 1                 ; 6       ;
+;      - Mux4~1          ; 1                 ; 6       ;
+;      - Mux4~2          ; 1                 ; 6       ;
+;      - Mux4~4          ; 1                 ; 6       ;
+;      - Mux4~6          ; 1                 ; 6       ;
+;      - Mux4~7          ; 1                 ; 6       ;
+;      - Mux4~10         ; 1                 ; 6       ;
+;      - Mux4~12         ; 1                 ; 6       ;
+;      - Mux4~13         ; 1                 ; 6       ;
+;      - Mux4~18         ; 1                 ; 6       ;
+;      - Mux4~19         ; 1                 ; 6       ;
+;      - Mux4~20         ; 1                 ; 6       ;
+;      - Mux4~22         ; 1                 ; 6       ;
+;      - Mux3~0          ; 1                 ; 6       ;
+;      - Mux3~1          ; 1                 ; 6       ;
+;      - Mux3~3          ; 1                 ; 6       ;
+;      - Mux3~5          ; 1                 ; 6       ;
+;      - Mux3~8          ; 1                 ; 6       ;
+;      - Mux3~11         ; 1                 ; 6       ;
+;      - Mux3~12         ; 1                 ; 6       ;
+; ADDR[6]                ;                   ;         ;
+;      - Mux6~0          ; 0                 ; 6       ;
+;      - Mux6~1          ; 0                 ; 6       ;
+;      - Mux6~2          ; 0                 ; 6       ;
+;      - Mux6~4          ; 0                 ; 6       ;
+;      - Mux6~9          ; 0                 ; 6       ;
+;      - Mux6~12         ; 0                 ; 6       ;
+;      - Mux6~13         ; 0                 ; 6       ;
+;      - Mux6~14         ; 0                 ; 6       ;
+;      - Mux6~15         ; 0                 ; 6       ;
+;      - Mux6~18         ; 0                 ; 6       ;
+;      - Mux6~19         ; 0                 ; 6       ;
+;      - Mux6~20         ; 0                 ; 6       ;
+;      - Mux6~22         ; 0                 ; 6       ;
+;      - Mux5~0          ; 0                 ; 6       ;
+;      - Mux5~1          ; 0                 ; 6       ;
+;      - Mux5~2          ; 0                 ; 6       ;
+;      - Mux5~4          ; 0                 ; 6       ;
+;      - Mux5~9          ; 0                 ; 6       ;
+;      - Mux5~15         ; 0                 ; 6       ;
+;      - Mux5~19         ; 0                 ; 6       ;
+;      - Mux5~20         ; 0                 ; 6       ;
+;      - Mux5~21         ; 0                 ; 6       ;
+;      - Mux5~23         ; 0                 ; 6       ;
+;      - Mux4~0          ; 0                 ; 6       ;
+;      - Mux4~1          ; 0                 ; 6       ;
+;      - Mux4~2          ; 0                 ; 6       ;
+;      - Mux4~4          ; 0                 ; 6       ;
+;      - Mux4~9          ; 0                 ; 6       ;
+;      - Mux4~14         ; 0                 ; 6       ;
+;      - Mux4~16         ; 0                 ; 6       ;
+;      - Mux4~21         ; 0                 ; 6       ;
+;      - Mux3~0          ; 0                 ; 6       ;
+;      - Mux3~1          ; 0                 ; 6       ;
+;      - Mux3~3          ; 0                 ; 6       ;
+;      - Mux3~4          ; 0                 ; 6       ;
+;      - Mux3~5          ; 0                 ; 6       ;
+;      - Mux3~7          ; 0                 ; 6       ;
+;      - Mux3~8          ; 0                 ; 6       ;
+;      - Mux3~11         ; 0                 ; 6       ;
+;      - Mux3~12         ; 0                 ; 6       ;
+;      - Mux2~3          ; 0                 ; 6       ;
+;      - Mux2~4          ; 0                 ; 6       ;
+;      - Mux1~1          ; 0                 ; 6       ;
+;      - Mux0~0          ; 0                 ; 6       ;
+;      - Mux3~15         ; 0                 ; 6       ;
+;      - Mux3~17         ; 0                 ; 6       ;
+; ADDR[2]                ;                   ;         ;
+;      - Mux6~0          ; 0                 ; 6       ;
+;      - Mux6~1          ; 0                 ; 6       ;
+;      - Mux6~2          ; 0                 ; 6       ;
+;      - Mux6~4          ; 0                 ; 6       ;
+;      - Mux6~6          ; 0                 ; 6       ;
+;      - Mux6~7          ; 0                 ; 6       ;
+;      - Mux6~8          ; 0                 ; 6       ;
+;      - Mux6~10         ; 0                 ; 6       ;
+;      - Mux6~12         ; 0                 ; 6       ;
+;      - Mux6~13         ; 0                 ; 6       ;
+;      - Mux6~15         ; 0                 ; 6       ;
+;      - Mux6~21         ; 0                 ; 6       ;
+;      - Mux6~23         ; 0                 ; 6       ;
+;      - Mux5~18         ; 0                 ; 6       ;
+;      - Mux4~17         ; 0                 ; 6       ;
+;      - Mux4~24         ; 0                 ; 6       ;
+;      - Mux3~0          ; 0                 ; 6       ;
+;      - Mux3~1          ; 0                 ; 6       ;
+;      - Mux3~3          ; 0                 ; 6       ;
+;      - Mux3~4          ; 0                 ; 6       ;
+;      - Mux3~5          ; 0                 ; 6       ;
+;      - Mux3~7          ; 0                 ; 6       ;
+;      - Mux3~9          ; 0                 ; 6       ;
+;      - Mux3~11         ; 0                 ; 6       ;
+;      - Mux3~12         ; 0                 ; 6       ;
+;      - Mux2~0          ; 0                 ; 6       ;
+;      - Mux3~15         ; 0                 ; 6       ;
+;      - Mux3~17         ; 0                 ; 6       ;
+; ADDR[3]                ;                   ;         ;
+;      - Mux6~0          ; 0                 ; 6       ;
+;      - Mux6~1          ; 0                 ; 6       ;
+;      - Mux6~2          ; 0                 ; 6       ;
+;      - Mux6~4          ; 0                 ; 6       ;
+;      - Mux6~6          ; 0                 ; 6       ;
+;      - Mux6~7          ; 0                 ; 6       ;
+;      - Mux6~8          ; 0                 ; 6       ;
+;      - Mux6~10         ; 0                 ; 6       ;
+;      - Mux6~12         ; 0                 ; 6       ;
+;      - Mux6~13         ; 0                 ; 6       ;
+;      - Mux6~15         ; 0                 ; 6       ;
+;      - Mux6~21         ; 0                 ; 6       ;
+;      - Mux5~0          ; 0                 ; 6       ;
+;      - Mux5~1          ; 0                 ; 6       ;
+;      - Mux5~2          ; 0                 ; 6       ;
+;      - Mux5~4          ; 0                 ; 6       ;
+;      - Mux5~6          ; 0                 ; 6       ;
+;      - Mux5~7          ; 0                 ; 6       ;
+;      - Mux5~8          ; 0                 ; 6       ;
+;      - Mux5~10         ; 0                 ; 6       ;
+;      - Mux5~12         ; 0                 ; 6       ;
+;      - Mux5~13         ; 0                 ; 6       ;
+;      - Mux5~14         ; 0                 ; 6       ;
+;      - Mux5~16         ; 0                 ; 6       ;
+;      - Mux5~19         ; 0                 ; 6       ;
+;      - Mux5~20         ; 0                 ; 6       ;
+;      - Mux5~21         ; 0                 ; 6       ;
+;      - Mux5~23         ; 0                 ; 6       ;
+;      - Mux4~17         ; 0                 ; 6       ;
+;      - Mux3~10         ; 0                 ; 6       ;
+;      - Mux3~14         ; 0                 ; 6       ;
+;      - Mux2~0          ; 0                 ; 6       ;
+;      - Mux2~1          ; 0                 ; 6       ;
+;      - Mux2~2          ; 0                 ; 6       ;
+;      - Mux1~0          ; 0                 ; 6       ;
+; ADDR[4]                ;                   ;         ;
+;      - Mux6~3          ; 1                 ; 6       ;
+;      - Mux6~5          ; 1                 ; 6       ;
+;      - Mux6~9          ; 1                 ; 6       ;
+;      - Mux6~11         ; 1                 ; 6       ;
+;      - Mux6~12         ; 1                 ; 6       ;
+;      - Mux6~13         ; 1                 ; 6       ;
+;      - Mux6~15         ; 1                 ; 6       ;
+;      - Mux6~18         ; 1                 ; 6       ;
+;      - Mux6~19         ; 1                 ; 6       ;
+;      - Mux6~20         ; 1                 ; 6       ;
+;      - Mux6~22         ; 1                 ; 6       ;
+;      - Mux5~3          ; 1                 ; 6       ;
+;      - Mux5~5          ; 1                 ; 6       ;
+;      - Mux5~6          ; 1                 ; 6       ;
+;      - Mux5~7          ; 1                 ; 6       ;
+;      - Mux5~8          ; 1                 ; 6       ;
+;      - Mux5~10         ; 1                 ; 6       ;
+;      - Mux5~12         ; 1                 ; 6       ;
+;      - Mux5~13         ; 1                 ; 6       ;
+;      - Mux5~14         ; 1                 ; 6       ;
+;      - Mux5~16         ; 1                 ; 6       ;
+;      - Mux5~22         ; 1                 ; 6       ;
+;      - Mux5~24         ; 1                 ; 6       ;
+;      - Mux4~0          ; 1                 ; 6       ;
+;      - Mux4~1          ; 1                 ; 6       ;
+;      - Mux4~2          ; 1                 ; 6       ;
+;      - Mux4~4          ; 1                 ; 6       ;
+;      - Mux4~6          ; 1                 ; 6       ;
+;      - Mux4~7          ; 1                 ; 6       ;
+;      - Mux4~8          ; 1                 ; 6       ;
+;      - Mux4~10         ; 1                 ; 6       ;
+;      - Mux4~14         ; 1                 ; 6       ;
+;      - Mux4~15         ; 1                 ; 6       ;
+;      - Mux4~21         ; 1                 ; 6       ;
+;      - Mux4~23         ; 1                 ; 6       ;
+;      - Mux3~10         ; 1                 ; 6       ;
+;      - Mux2~1          ; 1                 ; 6       ;
+;      - Mux2~2          ; 1                 ; 6       ;
+;      - Mux1~0          ; 1                 ; 6       ;
+; ADDR[1]                ;                   ;         ;
+;      - Mux6~3          ; 0                 ; 6       ;
+;      - Mux6~6          ; 0                 ; 6       ;
+;      - Mux6~7          ; 0                 ; 6       ;
+;      - Mux6~8          ; 0                 ; 6       ;
+;      - Mux6~10         ; 0                 ; 6       ;
+;      - Mux6~14         ; 0                 ; 6       ;
+;      - Mux6~16         ; 0                 ; 6       ;
+;      - Mux6~18         ; 0                 ; 6       ;
+;      - Mux6~19         ; 0                 ; 6       ;
+;      - Mux6~20         ; 0                 ; 6       ;
+;      - Mux6~22         ; 0                 ; 6       ;
+;      - Mux5~3          ; 0                 ; 6       ;
+;      - Mux5~6          ; 0                 ; 6       ;
+;      - Mux5~7          ; 0                 ; 6       ;
+;      - Mux5~8          ; 0                 ; 6       ;
+;      - Mux5~10         ; 0                 ; 6       ;
+;      - Mux5~15         ; 0                 ; 6       ;
+;      - Mux5~17         ; 0                 ; 6       ;
+;      - Mux5~22         ; 0                 ; 6       ;
+;      - Mux4~3          ; 0                 ; 6       ;
+;      - Mux4~6          ; 0                 ; 6       ;
+;      - Mux4~7          ; 0                 ; 6       ;
+;      - Mux4~10         ; 0                 ; 6       ;
+;      - Mux4~12         ; 0                 ; 6       ;
+;      - Mux4~13         ; 0                 ; 6       ;
+;      - Mux4~15         ; 0                 ; 6       ;
+;      - Mux4~18         ; 0                 ; 6       ;
+;      - Mux4~19         ; 0                 ; 6       ;
+;      - Mux4~20         ; 0                 ; 6       ;
+;      - Mux3~0          ; 0                 ; 6       ;
+;      - Mux3~1          ; 0                 ; 6       ;
+;      - Mux3~3          ; 0                 ; 6       ;
+;      - Mux3~5          ; 0                 ; 6       ;
+;      - Mux3~7          ; 0                 ; 6       ;
+;      - Mux3~8          ; 0                 ; 6       ;
+;      - Mux3~11         ; 0                 ; 6       ;
+;      - Mux3~12         ; 0                 ; 6       ;
+;      - Mux2~0          ; 0                 ; 6       ;
+;      - Mux3~15         ; 0                 ; 6       ;
+;      - Mux3~16         ; 0                 ; 6       ;
+;      - Mux3~17         ; 0                 ; 6       ;
+; ADDR[7]                ;                   ;         ;
+;      - Mux6~17         ; 1                 ; 6       ;
+;      - Mux6~24         ; 1                 ; 6       ;
+;      - Mux5~18         ; 1                 ; 6       ;
+;      - Mux5~25         ; 1                 ; 6       ;
+;      - Mux4~3          ; 1                 ; 6       ;
+;      - Mux4~5          ; 1                 ; 6       ;
+;      - Mux4~9          ; 1                 ; 6       ;
+;      - Mux4~11         ; 1                 ; 6       ;
+;      - Mux4~12         ; 1                 ; 6       ;
+;      - Mux4~13         ; 1                 ; 6       ;
+;      - Mux4~15         ; 1                 ; 6       ;
+;      - Mux4~18         ; 1                 ; 6       ;
+;      - Mux4~19         ; 1                 ; 6       ;
+;      - Mux4~20         ; 1                 ; 6       ;
+;      - Mux4~22         ; 1                 ; 6       ;
+;      - Mux3~2          ; 1                 ; 6       ;
+;      - Mux3~4          ; 1                 ; 6       ;
+;      - Mux3~6          ; 1                 ; 6       ;
+;      - Mux3~8          ; 1                 ; 6       ;
+;      - Mux3~9          ; 1                 ; 6       ;
+;      - Mux3~13         ; 1                 ; 6       ;
+;      - Mux2~1          ; 1                 ; 6       ;
+;      - Mux2~2          ; 1                 ; 6       ;
+;      - Mux2~3          ; 1                 ; 6       ;
+;      - Mux2~4          ; 1                 ; 6       ;
+;      - Mux1~0          ; 1                 ; 6       ;
+;      - Mux1~1          ; 1                 ; 6       ;
+;      - Mux0~0          ; 1                 ; 6       ;
+;      - Mux3~16         ; 1                 ; 6       ;
+;      - Mux3~18         ; 1                 ; 6       ;
+;      - Q[7]~reg0feeder ; 1                 ; 6       ;
+; ADDR[5]                ;                   ;         ;
+; CLK                    ;                   ;         ;
+; RESET_N                ;                   ;         ;
+; ENA                    ;                   ;         ;
++------------------------+-------------------+---------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------+
@@ -869,79 +821,79 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------+-----------------------+
 ; Name    ; Fan-Out               ;
 +---------+-----------------------+
-; ADDR[7] ; 61                    ;
-; ADDR[6] ; 58                    ;
-; ADDR[0] ; 52                    ;
-; ADDR[3] ; 48                    ;
-; ADDR[5] ; 46                    ;
-; ADDR[1] ; 37                    ;
-; ADDR[2] ; 30                    ;
-; ADDR[4] ; 22                    ;
+; ADDR[0] ; 49                    ;
+; ADDR[6] ; 46                    ;
+; ADDR[1] ; 41                    ;
+; ADDR[5] ; 39                    ;
+; ADDR[4] ; 39                    ;
+; ADDR[3] ; 35                    ;
+; ADDR[7] ; 31                    ;
+; ADDR[2] ; 28                    ;
 ; ENA     ; 8                     ;
-; Mux1~3  ; 4                     ;
-; Mux3~1  ; 3                     ;
-; Mux1~4  ; 2                     ;
-; Mux1~2  ; 2                     ;
-; Mux3~12 ; 2                     ;
-; Mux3~10 ; 2                     ;
-; Mux3~7  ; 2                     ;
-; Mux4~2  ; 2                     ;
-; Mux4~24 ; 1                     ;
-; Mux4~23 ; 1                     ;
-; Mux3~21 ; 1                     ;
-; Mux3~20 ; 1                     ;
-; Mux1~9  ; 1                     ;
-; Mux1~8  ; 1                     ;
-; Mux1~7  ; 1                     ;
-; Mux2~16 ; 1                     ;
-; Mux0~3  ; 1                     ;
-; Mux0~2  ; 1                     ;
-; Mux0~1  ; 1                     ;
-; Mux0~0  ; 1                     ;
-; Mux1~6  ; 1                     ;
-; Mux1~5  ; 1                     ;
-; Mux2~15 ; 1                     ;
-; Mux2~14 ; 1                     ;
-; Mux2~13 ; 1                     ;
-; Mux2~12 ; 1                     ;
-; Mux2~11 ; 1                     ;
-; Mux2~10 ; 1                     ;
-; Mux2~9  ; 1                     ;
-; Mux2~8  ; 1                     ;
-; Mux2~7  ; 1                     ;
-; Mux2~6  ; 1                     ;
-; Mux2~5  ; 1                     ;
-; Mux2~4  ; 1                     ;
-; Mux3~19 ; 1                     ;
+; Mux2~2  ; 2                     ;
+; Mux2~1  ; 2                     ;
+; Mux2~0  ; 2                     ;
 ; Mux3~18 ; 1                     ;
 ; Mux3~17 ; 1                     ;
 ; Mux3~16 ; 1                     ;
 ; Mux3~15 ; 1                     ;
+; Mux0~0  ; 1                     ;
+; Mux1~1  ; 1                     ;
+; Mux1~0  ; 1                     ;
+; Mux2~5  ; 1                     ;
+; Mux2~4  ; 1                     ;
+; Mux2~3  ; 1                     ;
 ; Mux3~14 ; 1                     ;
 ; Mux3~13 ; 1                     ;
+; Mux3~12 ; 1                     ;
+; Mux3~11 ; 1                     ;
+; Mux3~10 ; 1                     ;
+; Mux3~9  ; 1                     ;
+; Mux3~8  ; 1                     ;
+; Mux3~7  ; 1                     ;
+; Mux3~6  ; 1                     ;
+; Mux3~5  ; 1                     ;
+; Mux3~4  ; 1                     ;
+; Mux3~3  ; 1                     ;
+; Mux3~2  ; 1                     ;
+; Mux3~1  ; 1                     ;
+; Mux3~0  ; 1                     ;
+; Mux4~24 ; 1                     ;
+; Mux4~23 ; 1                     ;
+; Mux4~22 ; 1                     ;
+; Mux4~21 ; 1                     ;
+; Mux4~20 ; 1                     ;
+; Mux4~19 ; 1                     ;
+; Mux4~18 ; 1                     ;
+; Mux4~17 ; 1                     ;
+; Mux4~16 ; 1                     ;
+; Mux4~15 ; 1                     ;
+; Mux4~14 ; 1                     ;
+; Mux4~13 ; 1                     ;
+; Mux4~12 ; 1                     ;
 +---------+-----------------------+
 
 
-+-----------------------------------------------------+
-; Interconnect Usage Summary                          ;
-+----------------------------+------------------------+
-; Interconnect Resource Type ; Usage                  ;
-+----------------------------+------------------------+
-; Block interconnects        ; 118 / 15,666 ( < 1 % ) ;
-; C16 interconnects          ; 2 / 812 ( < 1 % )      ;
-; C4 interconnects           ; 92 / 11,424 ( < 1 % )  ;
-; Direct links               ; 10 / 15,666 ( < 1 % )  ;
-; Global clocks              ; 2 / 8 ( 25 % )         ;
-; Local interconnects        ; 85 / 4,608 ( 2 % )     ;
-; R24 interconnects          ; 14 / 652 ( 2 % )       ;
-; R4 interconnects           ; 85 / 13,328 ( < 1 % )  ;
-+----------------------------+------------------------+
++----------------------------------------------------+
+; Interconnect Usage Summary                         ;
++----------------------------+-----------------------+
+; Interconnect Resource Type ; Usage                 ;
++----------------------------+-----------------------+
+; Block interconnects        ; 97 / 15,666 ( < 1 % ) ;
+; C16 interconnects          ; 2 / 812 ( < 1 % )     ;
+; C4 interconnects           ; 52 / 11,424 ( < 1 % ) ;
+; Direct links               ; 8 / 15,666 ( < 1 % )  ;
+; Global clocks              ; 2 / 8 ( 25 % )        ;
+; Local interconnects        ; 71 / 4,608 ( 2 % )    ;
+; R24 interconnects          ; 10 / 652 ( 2 % )      ;
+; R4 interconnects           ; 76 / 13,328 ( < 1 % ) ;
++----------------------------+-----------------------+
 
 
 +---------------------------------------------------------------------------+
 ; LAB Logic Elements                                                        ;
 +---------------------------------------------+-----------------------------+
-; Number of Logic Elements  (Average = 15.63) ; Number of LABs  (Total = 8) ;
+; Number of Logic Elements  (Average = 15.00) ; Number of LABs  (Total = 7) ;
 +---------------------------------------------+-----------------------------+
 ; 1                                           ; 0                           ;
 ; 2                                           ; 0                           ;
@@ -951,32 +903,32 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; 6                                           ; 0                           ;
 ; 7                                           ; 0                           ;
 ; 8                                           ; 0                           ;
-; 9                                           ; 0                           ;
+; 9                                           ; 1                           ;
 ; 10                                          ; 0                           ;
 ; 11                                          ; 0                           ;
 ; 12                                          ; 0                           ;
-; 13                                          ; 1                           ;
+; 13                                          ; 0                           ;
 ; 14                                          ; 0                           ;
 ; 15                                          ; 0                           ;
-; 16                                          ; 7                           ;
+; 16                                          ; 6                           ;
 +---------------------------------------------+-----------------------------+
 
 
 +------------------------------------------------------------------+
 ; LAB-wide Signals                                                 ;
 +------------------------------------+-----------------------------+
-; LAB-wide Signals  (Average = 2.25) ; Number of LABs  (Total = 8) ;
+; LAB-wide Signals  (Average = 2.14) ; Number of LABs  (Total = 7) ;
 +------------------------------------+-----------------------------+
-; 1 Async. clear                     ; 6                           ;
-; 1 Clock                            ; 6                           ;
-; 1 Clock enable                     ; 6                           ;
+; 1 Async. clear                     ; 5                           ;
+; 1 Clock                            ; 5                           ;
+; 1 Clock enable                     ; 5                           ;
 +------------------------------------+-----------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Signals Sourced                                                        ;
 +----------------------------------------------+-----------------------------+
-; Number of Signals Sourced  (Average = 16.50) ; Number of LABs  (Total = 8) ;
+; Number of Signals Sourced  (Average = 16.14) ; Number of LABs  (Total = 7) ;
 +----------------------------------------------+-----------------------------+
 ; 0                                            ; 0                           ;
 ; 1                                            ; 0                           ;
@@ -987,42 +939,43 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; 6                                            ; 0                           ;
 ; 7                                            ; 0                           ;
 ; 8                                            ; 0                           ;
-; 9                                            ; 0                           ;
+; 9                                            ; 1                           ;
 ; 10                                           ; 0                           ;
 ; 11                                           ; 0                           ;
 ; 12                                           ; 0                           ;
 ; 13                                           ; 0                           ;
-; 14                                           ; 1                           ;
+; 14                                           ; 0                           ;
 ; 15                                           ; 0                           ;
-; 16                                           ; 2                           ;
+; 16                                           ; 1                           ;
 ; 17                                           ; 4                           ;
-; 18                                           ; 1                           ;
+; 18                                           ; 0                           ;
+; 19                                           ; 0                           ;
+; 20                                           ; 1                           ;
 +----------------------------------------------+-----------------------------+
 
 
 +-------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                       ;
 +-------------------------------------------------+-----------------------------+
-; Number of Signals Sourced Out  (Average = 4.38) ; Number of LABs  (Total = 8) ;
+; Number of Signals Sourced Out  (Average = 3.43) ; Number of LABs  (Total = 7) ;
 +-------------------------------------------------+-----------------------------+
 ; 0                                               ; 0                           ;
 ; 1                                               ; 2                           ;
-; 2                                               ; 2                           ;
-; 3                                               ; 0                           ;
+; 2                                               ; 0                           ;
+; 3                                               ; 3                           ;
 ; 4                                               ; 1                           ;
 ; 5                                               ; 0                           ;
-; 6                                               ; 1                           ;
+; 6                                               ; 0                           ;
 ; 7                                               ; 0                           ;
 ; 8                                               ; 0                           ;
 ; 9                                               ; 1                           ;
-; 10                                              ; 1                           ;
 +-------------------------------------------------+-----------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Distinct Inputs                                                        ;
 +----------------------------------------------+-----------------------------+
-; Number of Distinct Inputs  (Average = 13.38) ; Number of LABs  (Total = 8) ;
+; Number of Distinct Inputs  (Average = 12.29) ; Number of LABs  (Total = 7) ;
 +----------------------------------------------+-----------------------------+
 ; 0                                            ; 0                           ;
 ; 1                                            ; 0                           ;
@@ -1031,17 +984,16 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; 4                                            ; 0                           ;
 ; 5                                            ; 0                           ;
 ; 6                                            ; 0                           ;
-; 7                                            ; 1                           ;
-; 8                                            ; 1                           ;
+; 7                                            ; 0                           ;
+; 8                                            ; 2                           ;
 ; 9                                            ; 0                           ;
 ; 10                                           ; 0                           ;
 ; 11                                           ; 0                           ;
 ; 12                                           ; 1                           ;
-; 13                                           ; 0                           ;
+; 13                                           ; 1                           ;
 ; 14                                           ; 1                           ;
 ; 15                                           ; 1                           ;
-; 16                                           ; 0                           ;
-; 17                                           ; 3                           ;
+; 16                                           ; 1                           ;
 +----------------------------------------------+-----------------------------+
 
 
@@ -1087,7 +1039,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Fitter
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Tue Dec 13 00:49:02 2016
+    Info: Processing started: Tue Dec 13 07:55:13 2016
 Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off lap8_pre -c lap8_pre
 Info: Automatically selected device EP2C5T144C6 for design lap8_pre
 Info: Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
@@ -1107,14 +1059,14 @@ Critical Warning: No exact pin location assignment(s) for 19 pins of 19 total pi
     Info: Pin Q[5] not assigned to an exact location on the device
     Info: Pin Q[6] not assigned to an exact location on the device
     Info: Pin Q[7] not assigned to an exact location on the device
-    Info: Pin ADDR[5] not assigned to an exact location on the device
-    Info: Pin ADDR[7] not assigned to an exact location on the device
+    Info: Pin ADDR[0] not assigned to an exact location on the device
     Info: Pin ADDR[6] not assigned to an exact location on the device
+    Info: Pin ADDR[2] not assigned to an exact location on the device
     Info: Pin ADDR[3] not assigned to an exact location on the device
     Info: Pin ADDR[4] not assigned to an exact location on the device
-    Info: Pin ADDR[0] not assigned to an exact location on the device
-    Info: Pin ADDR[2] not assigned to an exact location on the device
     Info: Pin ADDR[1] not assigned to an exact location on the device
+    Info: Pin ADDR[7] not assigned to an exact location on the device
+    Info: Pin ADDR[5] not assigned to an exact location on the device
     Info: Pin CLK not assigned to an exact location on the device
     Info: Pin RESET_N not assigned to an exact location on the device
     Info: Pin ENA not assigned to an exact location on the device
@@ -1168,8 +1120,8 @@ Warning: Found 8 output pins without output pin load capacitance assignment
 Info: Delay annotation completed successfully
 Warning: The Reserve All Unused Pins setting has not been specified, and will default to 'As output driving ground'.
 Info: Quartus II Fitter was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 276 megabytes
-    Info: Processing ended: Tue Dec 13 00:49:04 2016
+    Info: Peak virtual memory: 275 megabytes
+    Info: Processing ended: Tue Dec 13 07:55:15 2016
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:03
 
