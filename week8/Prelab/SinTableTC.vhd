@@ -20,6 +20,7 @@ end SinTableTC;
 
 architecture arch of SinTableTC is
 
+
 type table_type is array(0 to 255) of std_logic_vector(7 downto 0);
 signal sin_table : table_type;
 
