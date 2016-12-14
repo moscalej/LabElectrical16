@@ -2,9 +2,8 @@
 -- SinTable.vhd
 -- Written by Gadi and Eran Tuchman.
 -- All rights reserved, Copyright 2009
---------------------------------------
-
-library ieee;
+--
+--------------------------------------library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
